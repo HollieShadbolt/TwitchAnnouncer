@@ -8,7 +8,7 @@ A .NET console application for making Twitch announcements.
 
 # Usage
 ```
-TwitchAnnouncer path/to/file.config
+TwitchAnnouncer path/to/config.json
 ```
 
 This file should contain the following JSON properties:
