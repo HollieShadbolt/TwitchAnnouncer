@@ -4,7 +4,7 @@ on:
     - "v[0-9]+.[0-9]+.[0-9]+"
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     timeout-minutes: 15
     permissions: 
       packages: write
@@ -29,9 +29,9 @@ jobs:
     - name: Test
       run: dotnet test --configuration Release /p:Version=${VERSION} --no-build
     - name: Publish
-      run: dotnet publish -c Release -o release --self-contained --os win-x64
+      run: dotnet publish -c Release -o release --self-contained
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: TwitchAnnouncer
+        name: TwitchAnnouncer-win-x64
         path: /home/runner/work/TwitchAnnouncer/TwitchAnnouncer/release/
