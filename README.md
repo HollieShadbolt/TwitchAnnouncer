@@ -14,7 +14,7 @@ TwitchAnnouncer path/to/config.json
 ```
 
 This JSON file should contain the following:
-- `parameter` (string) - Your Bearer token.*
+- `parameter` (string) - The Bearer token.*
 - `client_id` (string) - The client ID.*
 - `broadcaster_id` (string) - The broadcaster ID.
 - `moderator_id` (string) - The moderator ID.
