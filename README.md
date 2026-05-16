@@ -18,3 +18,6 @@ This file should contain the following JSON properties:
 - `moderator_id` (string) - The ID of a user who has permission to moderate the broadcaster’s chat room.
 - `milliseconds_delay` (integer) - The number of milliseconds to wait before completing the returned task.
 - `messages` (string[]) - The messages.
+
+# Dependencies
+- [Twitch](https://github.com/HollieShadbolt/Twitch)
