@@ -4,7 +4,7 @@
 
 # TwitchAnnouncer
 
-A .NET console application for making Twitch announcements.
+A .NET console application for sending announcements to Twitch.
 
 The application will loop indefinitely until cancelled. After waiting for a defined number of milliseconds, a check is performed on the target broadcaster. If they are online, the next message in the defined messages list is sent as an announcement (looping back to the start of the list if required). The application will then loop back to waiting.
 
