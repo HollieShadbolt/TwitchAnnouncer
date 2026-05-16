@@ -21,7 +21,7 @@ This JSON file should contain the following:
 - `milliseconds_delay` (integer) - The number of milliseconds to wait between announcement attempts.
 - `messages` (string[]) - The list of messages.
 
-* See [Getting OAuth Access Tokens](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/).
+\* See [Getting OAuth Access Tokens](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/).
 
 # Dependencies
 - [Twitch](https://github.com/HollieShadbolt/Twitch)
