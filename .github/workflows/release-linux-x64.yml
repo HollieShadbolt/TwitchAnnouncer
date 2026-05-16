@@ -31,7 +31,7 @@ jobs:
     - name: Publish
       run: dotnet publish -c Release -o release --self-contained --os linux-x64
     - name: Upload Build Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: TwitchAnnouncer
         path: /home/runner/work/TwitchAnnouncer/TwitchAnnouncer/release/
