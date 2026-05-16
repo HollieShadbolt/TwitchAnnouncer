@@ -1,4 +1,4 @@
-name: Linux Release
+name: Linux x64 Release
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
     - name: Test
       run: dotnet test --configuration Release /p:Version=${VERSION} --no-build
     - name: Publish
-      run: dotnet publish -c Release -o release --self-contained --os linux
+      run: dotnet publish -c Release -o release --self-contained --runtime linux-x64
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v4
       with:
