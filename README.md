@@ -2,7 +2,11 @@
 [![Linux Release](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-release.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-release.yml)
 [![Windows Release](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/windows-release.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/windows-release.yml)
 
+# TwitchAnnouncer
+
 A .NET console application for making Twitch announcements.
+
+The application will loop indefinitely until cancelled. After waiting for a defined number of milliseconds, a check is performed on the target broadcaster. If they are online, the next message in the defined messages list is sent as an announcement (looping back to the start of the list if required).
 
 # Usage
 ```
@@ -10,12 +14,14 @@ TwitchAnnouncer path/to/config.json
 ```
 
 This file should contain the following JSON properties:
-- `parameter` (string) - The credentials containing the authentication information of the user agent.
-- `client_id` (string) - The client ID.
+- `parameter` (string) - Your Bearer token.*
+- `client_id` (string) - The client ID.*
 - `broadcaster_id` (string) - The broadcaster ID.
-- `moderator_id` (string) - The ID of a user who has permission to moderate the broadcaster’s chat room.
-- `milliseconds_delay` (integer) - The number of milliseconds to wait before completing the returned task.
-- `messages` (string[]) - The messages.
+- `moderator_id` (string) - The moderator ID.
+- `milliseconds_delay` (integer) - The number of milliseconds to wait between announcement attempts.
+- `messages` (string[]) - The list of messages.
+
+* See [Getting OAuth Access Tokens](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/).
 
 # Dependencies
 - [Twitch](https://github.com/HollieShadbolt/Twitch)
