@@ -1,7 +1,7 @@
 [![Unit Test](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/dotnet.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/dotnet.yml)
-[![Linux Release](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-release.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-release.yml)
-[![Windows Release](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/windows-release.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/windows-release.yml)
+[![Linux x64 Release](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-x64-release.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-x64-release.yml)
 [![Linux Arm 64 Release](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-arm64-release.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/linux-arm64-release.yml)
+[![Windows Release](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/windows-release.yml/badge.svg)](https://github.com/HollieShadbolt/TwitchAnnouncer/actions/workflows/windows-release.yml)
 
 # TwitchAnnouncer
 
