@@ -1,4 +1,4 @@
-name: Release Linux
+name: Linux Release
 
 on:
   push:
