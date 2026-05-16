@@ -14,6 +14,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Twitch" Version="0.0.1" />
+        <PackageReference Include="Twitch" Version="1.0.0" />
     </ItemGroup>
 </Project>
