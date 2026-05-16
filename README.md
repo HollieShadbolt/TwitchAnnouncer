@@ -13,7 +13,7 @@ The application will loop indefinitely until cancelled. After waiting for a defi
 TwitchAnnouncer path/to/config.json
 ```
 
-This file should contain the following JSON properties:
+This JSON file should contain the following:
 - `parameter` (string) - Your Bearer token.*
 - `client_id` (string) - The client ID.*
 - `broadcaster_id` (string) - The broadcaster ID.
