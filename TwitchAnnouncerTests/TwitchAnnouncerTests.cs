@@ -6,7 +6,7 @@ namespace TwitchAnnouncerTests;
 public static class Tests
 {
     [Test]
-    public static void RunAsync_TestAsync()
+    public static void RunAsync_Test()
     {
         // Arrange
         var mockTwitch = new Mock<Twitch.Interfaces.ITwitch>();
